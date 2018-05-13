@@ -13,6 +13,7 @@ Connections
 ---
 
 - SX1278 - Arduino 3.3V 8MHz
+
 - 3.3V - external 3.3V regulator
 - GND - GND
 - MOSI - D11
