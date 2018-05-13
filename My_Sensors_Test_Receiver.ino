@@ -76,7 +76,7 @@
 
 #define MY_RFM95_TX_POWER_DBM (20u)  // Tx Power = 20dBm (100mW) . Realy measured for RA-02: 63mW
 
-#define MY_RFM95_ATC_MODE_DISABLED // Отключение режима ATC
+#define MY_RFM95_ATC_MODE_DISABLED // Disable ATC
 
 #include <MySensors.h>
 
