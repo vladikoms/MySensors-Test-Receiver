@@ -17,13 +17,9 @@
  * version 2 as published by the Free Software Foundation.
  *
  *******************************
- *
- * REVISION HISTORY
- * Version 1.0 - Henrik EKblad
- *
  * DESCRIPTION
- * Example sketch showing how to measue light level using a LM393 photo-resistor
- * http://www.mysensors.org/build/light
+ *
+ * Example sketch showing how to measue RSSI RX level
  */
 
 // Enable debug prints to serial monitor
@@ -80,7 +76,7 @@
 
 #include <MySensors.h>
 
-uint32_t SLEEP_TIME = 5000; // Sleep time between reads (in milliseconds)
+uint32_t SLEEP_TIME = 5000; // Sleep time (in milliseconds)
 
 void loop()
 {
